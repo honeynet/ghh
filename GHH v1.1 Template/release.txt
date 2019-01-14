@@ -1,0 +1,30 @@
+Release Checklist
+
+config.php
+Line	Default
+32	$RegisterGlobals is true
+38	$LogType is CSV
+41	$Filename is blank
+44	$Owner is blank
+45	$Server is blank
+46	$DBUser is blank
+47	$DBPass is blank
+48	$DBName is blank
+62	error_reporting(0);
+
+template.php
+31	$ConfigFile is blank
+33	$SafeReferer is blank
+43	error_reporting(0);
+57	Honeypot is correctly documented, headered.
+	Custom Honeypot/section signatures are accurate.
+
+All files
+No die() functions with text (IE die("ghh failed"); is BAD!)
+Version numbers throughout state v1.1
+GPL, credits are viewable and correct
+NO DEVELOPER CODE (echo, die, error reporting)
+
+Johnny IHACKSTUFF credit for GHDB signatures
+
+

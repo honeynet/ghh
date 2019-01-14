@@ -1,0 +1,19 @@
+Quick installation
+
+Configure these values (Use documentation as much as possible, report doc problems to pointdexterish@gmail.com)
+
+in template.php:
+$ConfigFile = ''; //Change this to the configuration filename (config.php)
+$SafeReferer = ''; //Change this to the URL of the page linking to the honeypot (http://localhost/)
+
+in config.php:
+$LogType = ''CSV''; //Enter 'CSV', 'MySQL', or 'XMLrpc'. then complete the relevant configuration section belowConfigure the values below, determined by your type of logging.
+Is the logfile writable? Is Register Globals off or disabled in GHH configuration?
+
+Quick Testing
+When you view template.php or config.php, it should:
+	Make a log. (with correct values, in DB or CSV)
+	Display honeypot output. (non-fingerprintable)
+	Show no errors. (non-fingerprintable)
+
+To test, configure GHH to write to MySQL and CSV. Report any problems or comments to ryan@thebillygoatcurse.com.

@@ -1,0 +1,2 @@
+#See the file extension .pl? Replace it or add the extension of the honeypot you are using (I.E. .mdb, .pl, .blt, .txt)
+addtype application/x-httpd-php .pl .php

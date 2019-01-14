@@ -1,0 +1,31 @@
+body              { margin : 0px; font-family : Tahoma, serif; font-size : 8pt; color : #000000; background-color: transparent; }
+
+font.headline     { font-family : Tahoma, serif; font-size : 25pt; color : #000000; font-weight : bold; background-color: transparent; }
+font.iheadline    { font-family : Tahoma, serif; font-size : 10pt; color : #FFFFFF; font-weight : bold; background-color: transparent; }
+
+table.top         { width: 100%; border-bottom : 1px solid #000000; background-color: transparent; }
+table.bottom      { width: 100%; border-top : 1px solid #000000; font-family : Tahoma, serif; font-size : 8pt; background-color: transparent; }
+table.index       { background-color : #EEEEEE; color : #000000; border : 1px solid #000000; font-family : Tahoma, serif; font-size : 8pt; }
+table.directories { font-family : Tahoma, serif; font-size : 10pt; background-color: transparent; }
+table.files       { font-family : Tahoma, serif; font-size : 10pt; background-color: transparent; }
+table.menu        { font-family : Tahoma, serif; font-size : 10pt; background-color: transparent; }
+table.upload      { font-family : Tahoma, serif; font-size : 8pt; background-color: transparent; }
+table.output      { font-family : Tahoma, serif; font-size : 8pt; background-color : #EEEEEE; color : #000000; }
+
+td.iheadline      { background-color : #5485C9; color : #000000; border-bottom : 1px solid #000000; }
+td.fbborder       { border-right : 1px solid #000000; background-color: transparent; }
+
+a:link            { text-decoration : none; color : #000000; background-color: transparent; }
+a:visited         { text-decoration : none; color : #000000; background-color: transparent; }
+a:hover           { text-decoration : underline; color : #000000; background-color: transparent; }
+
+a.bottom:link     { text-decoration : none; color : #000088; background-color: transparent; }
+a.bottom:visited  { text-decoration : none; color : #000088; background-color: transparent; }
+a.bottom:hover    { text-decoration : underline; color : #000088; background-color: transparent; }
+
+input             { background-color : #DDDDDD; border : 1px solid #000000; font-family : Tahoma, serif; font-size : 8pt; color : #000000; }
+input.button      { width : 50px; }
+input.bigbutton   { width : 100px; }
+textarea          { background-color : #FFFFFF; color : #000000; border : 1px solid #000000; font-family : Tahoma, serif; font-size : 10pt; }
+
+.bold             { font-weight : bold; background-color: transparent; }
